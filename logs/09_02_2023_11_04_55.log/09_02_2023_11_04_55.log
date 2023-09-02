@@ -1,0 +1,7 @@
+[ 2023-09-02 11:04:57,759 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-02 11:04:57,769 ] 187 werkzeug - INFO -  * Debugger PIN: 813-503-763
+[ 2023-09-02 11:05:00,320 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:05:00] "GET / HTTP/1.1" 200 -
+[ 2023-09-02 11:05:04,685 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:05:04] "GET /predict HTTP/1.1" 200 -
+[ 2023-09-02 11:05:05,221 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:05:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:05:05,226 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:05:05] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-09-02 11:05:18,289 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:05:18] "[33mPOST /upload HTTP/1.1[0m" 404 -

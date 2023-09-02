@@ -1,0 +1,13 @@
+[ 2023-09-02 11:49:49,779 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-09-02 11:49:49,779 ] 187 werkzeug - INFO -  * Debugger PIN: 813-503-763
+[ 2023-09-02 11:49:54,585 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:49:54] "GET / HTTP/1.1" 200 -
+[ 2023-09-02 11:49:59,064 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:49:59] "GET /predict HTTP/1.1" 200 -
+[ 2023-09-02 11:49:59,310 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:49:59] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-09-02 11:49:59,311 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:49:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:50:17,723 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:50:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-09-02 11:50:17,750 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:50:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:50:17,753 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:50:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:50:17,847 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:50:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:50:17,868 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:50:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:50:18,453 ] 187 werkzeug - INFO - 127.0.0.1 - - [02/Sep/2023 11:50:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-02 11:51:51,210 ] 187 werkzeug - INFO -  * Detected change in 'd:\\WaferFaultDetection\\src\\pipelines\\prediction_pipeline.py', reloading
