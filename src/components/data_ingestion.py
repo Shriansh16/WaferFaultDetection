@@ -20,7 +20,7 @@ class DataIngestion:
         logging.info("DATA INGESTION STARTS")
 
         try:
-            df=pd.read_csv(os.path.join('notebooks','cleaned_data_final2.csv'))
+            df=pd.read_csv(os.path.join('notebooks','cleaned_data_final4.csv'))
             logging.info("dataset read as pandas dataframe")
             logging.info(df.head)
             df.to_csv(self.data_ingestion_config.raw_data_path,index=False)
