@@ -27,9 +27,9 @@ class Model_trainer:
 
             X_train,y_train,X_test,y_test = (train_array[:,:-1],train_array[:,-1],test_array[:,:-1],test_array[:,-1])
             models={
-                   'LogisticRegression':LogisticRegression(),
+                   #'LogisticRegression':LogisticRegression(),
                    'KNN':KNeighborsClassifier(),
-                   'RandomForestClassifier':RandomForestClassifier(),
+                   #'RandomForestClassifier':RandomForestClassifier(),
                    'DecisionTreeClassifier':DecisionTreeClassifier(),
                    }
             model_report:dict=evaluate_models(X_train,y_train,X_test,y_test,models)
